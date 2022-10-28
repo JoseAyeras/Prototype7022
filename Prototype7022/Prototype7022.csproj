@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\_backicon.png" />
+    <None Remove="Views\_bagicon.png" />
+    <None Remove="Views\_buyicon.png" />
+    <None Remove="Views\_fighticon.png" />
+    <None Remove="Views\_infocon.png" />
+    <None Remove="Views\_infoicon.png" />
+    <None Remove="Views\_loadcon.png" />
+    <None Remove="Views\_optionsicon.png" />
+    <None Remove="Views\_partyicon.png" />
+    <None Remove="Views\_pauseicon.png" />
+    <None Remove="Views\_quiticon.png" />
+    <None Remove="Views\_runicon.png" />
+    <None Remove="Views\_saveicon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\_backicon.png" />
+    <Resource Include="Views\_bagicon.png" />
+    <Resource Include="Views\_buyicon.png" />
+    <Resource Include="Views\_fighticon.png" />
+    <Resource Include="Views\_infoicon.png" />
+    <Resource Include="Views\_loadcon.png" />
+    <Resource Include="Views\_optionsicon.png" />
+    <Resource Include="Views\_partyicon.png" />
+    <Resource Include="Views\_pauseicon.png" />
+    <Resource Include="Views\_quiticon.png" />
+    <Resource Include="Views\_runicon.png" />
+    <Resource Include="Views\_saveicon.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,62 @@
+﻿<Application x:Class="Prototype7022.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Prototype7022;assembly=Prototype7022"
+             xmlns:views="clr-namespace:Prototype7022.Views"
+             xmlns:viewmodels="clr-namespace:Prototype7022.ViewModels"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!--
+        <DataTemplate DataType="{x:Type viewmodels:MainViewModel}">
+            <views:MainView/>
+        </DataTemplate>
+        -->
+        <DataTemplate DataType="{x:Type viewmodels:CombatViewModel}">
+            <views:CombatView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:EngageViewModel}">
+            <views:EngageView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:HomeViewModel}">
+            <views:HomeView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:InventoryViewModel}">
+            <views:InventoryView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:LoadViewModel}">
+            <views:LoadView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:NGViewModel}">
+            <views:NGView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:OptionsViewModel}">
+            <views:OptionsView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:OverworldViewModel}">
+            <views:OverworldView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:PauseViewModel}">
+            <views:PauseView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:PartyViewModel}">
+            <views:PartyView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:RecordsViewModel}">
+            <views:RecordsView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:SaveViewModel}">
+            <views:SaveView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:ShopViewModel}">
+            <views:ShopView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:UseItemViewModel}">
+            <views:UseItemView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:UseMoveViewModel}">
+            <views:UseMoveView/>
+        </DataTemplate>
+
+        <!---->
+    </Application.Resources>
+</Application>
